@@ -11,7 +11,7 @@ require IO::Socket::SSL;
 
 @IO::Socket::Socks::ISA = qw(Exporter IO::Socket::SSL);
 @ISA = qw(Exporter IO::Socket::Socks);
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 1;
 
@@ -27,13 +27,14 @@ IO::Socket::SecureSocks - Doing socks over a secure wire (sockss)
   use IO::Socket::SecureSocks;
 
   my $sock = IO::Socket::SecureSocks->new(
-                ProxyAddr   => 'some.ssl.socks.server',
-                ProxyPort   => 1081, # default sockss port
-                Username    => 'socksuser',
-				Password    => 'sockspassword',
-				ConnectAddr => 'server.to.connect.to',
-				ConnectPort => 80,
-				Timeout     => 60) or die;
+    ProxyAddr   => 'some.ssl.socks.server',
+    ProxyPort   => 1081, # default sockss port
+    Username    => 'socksuser',
+    Password    => 'sockspassword',
+    ConnectAddr => 'server.to.connect.to',
+    ConnectPort => 80,
+    Timeout     => 60
+  ) or die;
 
 =head1 DESCRIPTION
 
