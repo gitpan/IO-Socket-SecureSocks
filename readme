@@ -1,0 +1,29 @@
+IO::Socket::SecureSocks v0.01
+==================================
+
+This module seeks to provide a full implementation of the SOCKS5
+protocol over a secure wire like a reqular socket as much as possible.
+
+IO::Socket::SecureSocks inherits the SOCKS5 implementation from IO::Socket::Socks
+and the security from IO::Socket::SSL.
+
+Sascha Kiefer <perl@intertivityNOSP4M.com>
+
+INSTALLATION
+
+	perl Makefile.PL
+	make
+	make test
+	make install
+
+DEPENDENCIES
+
+	IO::Socket::Socks
+	IO::Socket::SSL
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2004 Sascha Kiefer
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
