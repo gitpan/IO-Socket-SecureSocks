@@ -11,7 +11,7 @@ require IO::Socket::SSL;
 
 @IO::Socket::Socks::ISA = qw(Exporter IO::Socket::SSL);
 @ISA = qw(Exporter IO::Socket::Socks);
-$VERSION = '0.02';
+$VERSION = '0.1';
 
 1;
 
@@ -47,13 +47,11 @@ L<IO::Socket::Socks|IO::Socket::Socks>, L<IO::Socket::SSL|IO::Socket::SSL>
 
 =head1 AUTHOR
 
-Sascha Kiefer, E<lt>perl@intertivityNOSP4M.comE<gt>
+Sascha Kiefer, C<esskar@cpan.org>
 
-=head1 COPYRIGHT AND LICENSE
+=head1 COPYRIGHT
 
-Copyright 2004 by Sascha Kiefer
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This program is free software, you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =cut

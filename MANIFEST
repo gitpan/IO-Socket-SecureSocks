@@ -1,7 +1,7 @@
-Changes
+CHANGES
 Makefile.PL
-Manifest
-readme
-SecureSocks.pm
+MANIFEST
+README
+lib/IO/Socket/SecureSocks.pm
 t/1.t
 META.yml                                 Module meta-data (added by MakeMaker)
