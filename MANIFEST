@@ -1,7 +1,11 @@
+Build.PL
 CHANGES
-Makefile.PL
-MANIFEST
-README
 lib/IO/Socket/SecureSocks.pm
-t/1.t
-META.yml                                 Module meta-data (added by MakeMaker)
+MANIFEST			This list of files
+t/01use.t
+t/02pod.t
+t/03podcoverage.t
+t/04securesocks.t
+Makefile.PL
+README
+META.yml

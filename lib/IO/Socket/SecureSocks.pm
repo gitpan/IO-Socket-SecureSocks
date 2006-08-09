@@ -11,7 +11,7 @@ require IO::Socket::SSL;
 
 @IO::Socket::Socks::ISA = qw(Exporter IO::Socket::SSL);
 @ISA = qw(Exporter IO::Socket::Socks);
-$VERSION = '0.1';
+$VERSION = '0.2';
 
 1;
 
